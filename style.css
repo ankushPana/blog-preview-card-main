@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: hsl(47, 88%, 63%);
+}
+
+.main_container{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    margin: 50vh;
+    border: 5px  solid  black;
+    border-radius:  20px;
+    padding: 30px;
+    box-shadow: 7px 7px black;
+}
+.picture{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    
+}
+
+.learning{
+    background: hsl(47, 88%, 63%);
+    width:4vw;
+    margin-left: px;
+    margin-top: 20px;
+    align-self: flex-start;
+    font-family: 'Figtree';
+    border-radius: 3px;
+
+}
+.picture img{
+    border-radius: 30px;
+}
+.description{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    align-self: flex-start;
+    font-family: 'Figtree';
+}
+
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: px;
+    margin-bottom: 20px;
+    font-family: 'Figtree';
+    align-self: flex-start;
+}
+.info{
+    color: gray;
+    font-size: 20px;
+    font-family: 'Figtree';
+    margin-bottom: 20px;
+}
+.profile img{
+    width: 50px;
+
+}
+.profile{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    align-self: flex-start;
+}
